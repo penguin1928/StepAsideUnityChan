@@ -5842,6 +5842,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1210701778}
   - component: {fileID: 1210701777}
+  - component: {fileID: 1210701779}
+  - component: {fileID: 1210701780}
   m_Layer: 0
   m_Name: ItemGenerator
   m_TagString: Untagged
@@ -5856,7 +5858,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210701776}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcadf58ad780f944eada992955de2684, type: 3}
   m_Name: 
@@ -5878,6 +5880,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210701779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210701776}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfda76f9194b8e4999b2486c080124f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitychan: {fileID: 696753956}
+  carPrefab: {fileID: 7877352599291870218, guid: 0862e009acbdf6c48b6a7d5a661c48ef, type: 3}
+  coinPrefab: {fileID: 7925881361451611029, guid: c05937a0c04577349a1c68d89a1e2784, type: 3}
+  conePrefab: {fileID: 8906818284565028487, guid: 199a28d7e0eb37d4ab9020ad1c041332, type: 3}
+--- !u!114 &1210701780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210701776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2636bb34312945d44af021a6ce7983b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitychan: {fileID: 696753956}
+  carPrefab: {fileID: 7877352599291870218, guid: 0862e009acbdf6c48b6a7d5a661c48ef, type: 3}
+  coinPrefab: {fileID: 7925881361451611029, guid: c05937a0c04577349a1c68d89a1e2784, type: 3}
+  conePrefab: {fileID: 8906818284565028487, guid: 199a28d7e0eb37d4ab9020ad1c041332, type: 3}
 --- !u!1 &1489363578 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f668bbb17e3d34d4bbb7405516e8a12f, type: 3}
@@ -6237,6 +6271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4de0c9a4f3657ad438d8430f4af7c9c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitychan: {fileID: 0}
+  goal: {fileID: 0}
 --- !u!54 &1626864471
 Rigidbody:
   m_ObjectHideFlags: 0
